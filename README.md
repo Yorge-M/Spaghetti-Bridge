@@ -17,12 +17,12 @@ The Spaghetti Bridge project is a classic challenge in introductory engineering 
 ### 2.1. Overall Geometry
 
 The bridge employs a semi-circular arch design, chosen for its inherent strength in compression, which is advantageous for brittle materials like spaghetti. Key dimensions derived from the provided CAD drawings are:
-* Arch Radius (Height): $R = 51 \, \text{cm} = 510 \, \text{mm}$
-* Total Span (Length): $L_{total} = 102 \, \text{cm} = 1020 \, \text{mm}$
+* Arch Radius (Height): $R = 51 \ \text{cm} = 510 \ \text{mm}$
+* Total Span (Length): $L_{total} = 102 \ \text{cm} = 1020 \ \text{mm}$
 * Support Condition: The bridge rests on platforms with a 1 cm overlap at each end.
-* Effective Span (Unsupported Length): $L_{eff\_span} = 1020 \, \text{mm} - 2 \times 10 \, \text{mm} = 1000 \, \text{mm}$
-* Structural Width (Arch Separation): $W_{bridge} = 14 \, \text{cm} = 140 \, \text{mm}$ (Assumed distance between parallel arches/frames if applicable, though diagrams suggest a single plane analysis might suffice for primary load path).
-* Loading Deck Width: $W_{deck} = 24 \, \text{cm} = 240 \, \text{mm}$ (Area where load is applied).
+* Effective Span (Unsupported Length): $L_{eff\_span} = 1020 \ \text{mm} - 2 \times 10 \ \text{mm} = 1000 \ \text{mm}$
+* Structural Width (Arch Separation): $W_{bridge} = 14 \ \text{cm} = 140 \ \text{mm}$ (Assumed distance between parallel arches/frames if applicable, though diagrams suggest a single plane analysis might suffice for primary load path).
+* Loading Deck Width: $W_{deck} = 24 \ \text{cm} = 240 \ \text{mm}$ (Area where load is applied).
 
 The front view shows the semi-circular arch with radial tension members (cables) spaced approximately every 10 degrees. The bottom view details the loading deck grid structure. The side view illustrates the truss-like structure connecting the arches/deck (if it's a 3D structure) or the profile members.
 
@@ -35,7 +35,7 @@ The front view shows the semi-circular arch with radial tension members (cables)
 
 ### 2.3. Materials
 
-* **Spaghetti:** Standard spaghetti strands, diameter $d = 1.75 \, \text{mm}$. Single strand cross-sectional area $A_{strand} = \pi (d/2)^2 = \pi (1.75/2)^2 \approx 2.405 \, \text{mm}^2$.
+* **Spaghetti:** Standard spaghetti strands, diameter $d = 1.75 \ \text{mm}$. Single strand cross-sectional area $A_{strand} = \pi (d/2)^2 = \pi (1.75/2)^2 \approx 2.405 \ \text{mm}^2$.
 * **Adhesive:** Standard hot melt glue.
 
 ### 2.4. Construction Method
