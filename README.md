@@ -10,14 +10,14 @@ This report documents the design process, structural analysis, and performance p
 
 The bridge employs a semi-circular arch design, chosen for its strength in tension and compression, which is advantageous for brittle materials like spaghetti. Key dimensions in the CAD drawings are:
 
-- Arch Radius (Height): $R = 51\,\text{cm} = 510\,\text{mm}$
-- Total Span (Length): $L_{total} = 102\,\text{cm} = 1020\,\text{mm}$
+- Arch Radius (Height): $R = 51\\text{cm} = 510\\text{mm}$
+- Total Span (Length): $L_{total} = 102\\text{cm} = 1020\\text{mm}$
 - Support Condition: The bridge rests on platforms with a 1 cm overlap at each end.
-- Effective Span (Unsupported Length): $L_{eff\_ span} = 1020\,\text{mm} - 2 \times 10\,\text{mm} = 1000\,\text{mm}$
-- Structural Width (Arch Separation): $W_{bridge} = 14\,\text{cm} = 140\,\text{mm}$ (Distance between parallel arches/frames).
-- Loading Deck Width: $W_{deck} = 24\,\text{cm} = 240\,\text{mm}$ (Area where load is applied).
+- Effective Span (Unsupported Length): $L_{eff\_ span} = 1020\\text{mm} - 2 \times 10\\text{mm} = 1000\\text{mm}$
+- Structural Width (Arch Separation): $W_{bridge} = 14\\text{cm} = 140\\text{mm}$ (Distance between parallel arches/frames).
+- Loading Deck Width: $W_{deck} = 24\\text{cm} = 240\\text{mm}$ (Area where load is applied).
 
-![](media/SpaghettiBridge.png){width="6.0in" height="4.8in"}
+![](media/SpaghettiBridge.png)
 
 The front view shows the semi-circular arch with radial tension members (cables) spaced every 10 degrees. The bottom view details the loading deck grid structure. The side view illustrates the truss-like structure connecting the arches/deck and the profile members.
 
@@ -47,15 +47,15 @@ The initial length of the spaghetti is between 25.5cm and 26cm, so we cut all of
 
 ## **3.** **Free Body Diagram**
 
-## 3.1. Diagram {#diagram .样式1}
+### 3.1. Diagram
 
 For analyzing the overall structure under the applied load $W$, we consider the entire bridge as a rigid body. The load $W$ is applied vertically downwards at the center of the effective span. The bridge is supported at both ends. Assuming simple supports (allowing rotation but preventing vertical displacement), we have vertical reaction forces $R_{A}$ and $R_{B}$ at the left and right supports, respectively.
 
 Due to symmetry in geometry and loading: $R_{A} = R_{B} = W/2$
 
-![](media/FreeBodyDiagram.png){width="6.6570319335083115in" height="3.994219160104987in"}
+![](media/FreeBodyDiagram.png)
 
-## 3.2. Analysis Method {#analysis-method .样式2}
+### 3.2. Analysis Method
 
 The structural analysis of the spaghetti bridge involves principles from both statics and mechanics of materials, which requires more knowledge, therefore, we searched a lot of relevant materials, formulas and cases on the Internet, and used them as reference to analyze the forces of our bridge.
 
