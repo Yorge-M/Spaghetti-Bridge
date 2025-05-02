@@ -30,7 +30,7 @@ The front view shows the semi-circular arch with radial tension members (cables)
 
 ### 2.3. Materials
 
-- **Spaghetti:** La sicilia 5# spaghetti, diameter $d = 1.75\,\text{mm}$. Single strand cross-sectional area $A_{strand} = \pi(d/2)^{2} = \pi(1.75/2)^{2} \approx 2.405\,\text{mm}^{2}$.
+- **Spaghetti:** La sicilia 5# spaghetti, diameter $d = 1.75\\text{mm}$. Single strand cross-sectional area $A_{strand} = \pi(d/2)^{2} = \pi(1.75/2)^{2} \approx 2.405\\text{mm}^{2}$.
 - **Adhesive:** Deli hot melt glue.
 
 ### 2.4. Construction Method
